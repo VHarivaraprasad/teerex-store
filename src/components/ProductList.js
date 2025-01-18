@@ -228,9 +228,9 @@ const ProductList = ({ filters, addToCart }) => {
             <img src={product.image} alt={product.name} />
             <h4>{product.name}</h4>
             <p>Price: ₹{product.price}</p>
-            <p>Gender: {product.gender}</p>
+            {/* <p>Gender: {product.gender}</p>
             <p>Colour: {product.colour}</p>
-            <p>Type: {product.type}</p>
+            <p>Type: {product.type}</p> */}
             <button onClick={() => addToCart(product)}>Add to Cart</button>
           </div>
         ))
